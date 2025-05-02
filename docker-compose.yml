@@ -1,0 +1,7 @@
+services:
+  cagename:
+    build: .
+    domainname: local
+    hostname: section9
+    ports:
+      - "564:564"
